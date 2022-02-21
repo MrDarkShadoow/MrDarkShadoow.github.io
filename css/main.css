@@ -10,11 +10,13 @@ html {
 body {
   min-height: 100vh;
   max-width: 100%;
-  background-image: url("https://cdn.discordapp.com/attachments/636502333718790154/938166990395293797/Video_Full_HD_1920x1080_px.jpeg");
+  background-image: url("https://cdn.discordapp.com/attachments/942104998400110645/942106081545572443/cover-image_6.png");
   background-size: cover;
   background-attachment: fixed;
   color: #ffffff
 }
+
+
 
 .main {
   padding-bottom: 75px;
@@ -36,28 +38,6 @@ body {
 
 .username {
   text-align: center;
-}
-
-.long-btn {
-  margin: 20px auto;
-  border-radius: 20px;
-  border: 2px solid #000000;
-  padding: 5px;
-  max-width: 540px;
-  height: 42px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  color: #f0f0f0;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.long-btn:hover {
-  color: #f0f0f0;
-  background-color: #262626;
-  transition-duration: 0.3s;
 }
 
 .circle ul {
