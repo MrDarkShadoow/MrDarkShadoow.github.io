@@ -1,0 +1,109 @@
+.long-btn-youtube {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.long-btn-youtube:hover {
+  color: #f0f0f0;
+  background-color: #c00;
+  transition-duration: 0.5s;
+}
+
+.long-btn-discord {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.long-btn-discord:hover {
+  color: #f0f0f0;
+  background-color: #18191c;
+  transition-duration: 0.5s;
+}
+
+.long-btn-github {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.long-btn-github:hover {
+  color: #f0f0f0;
+  background-color: #161b22;
+  transition-duration: 0.5s;
+}
+
+.long-btn-steam {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.long-btn-steam:hover {
+  color: #f0f0f0;
+  background-color: #232633;
+  transition-duration: 0.5s;
+}
+
+.long-btn-spotify {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.long-btn-spotify:hover {
+  color: #f0f0f0;
+  background-color: #1ed760;
+  transition-duration: 0.5s;
+}
