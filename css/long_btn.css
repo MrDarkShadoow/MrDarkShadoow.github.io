@@ -16,9 +16,32 @@
 
 .long-btn-youtube:hover {
   color: #f0f0f0;
-  background-color: #c00;
+  background-color: #ff0000;
   transition-duration: 0.5s;
 }
+
+.long-btn-instagram {
+  margin: 20px auto;
+  border-radius: 20px;
+  border: 2px solid #000000;
+  padding: 5px;
+  max-width: 540px;
+  height: 42px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.long-btn-instagram:hover {
+  color: #f0f0f0;
+  background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 25%, rgba(221,42,123,1) 50%, rgba(254,218,119,1) 75%, rgba(245,133,41,1) 100%);;
+  transition-duration: 0.5s;
+}
+
 
 .long-btn-discord {
   margin: 20px auto;
@@ -38,7 +61,7 @@
 
 .long-btn-discord:hover {
   color: #f0f0f0;
-  background-color: #18191c;
+  background: linear-gradient(90deg, rgba(115,138,219,1) 25%, rgba(153,170,181,1) 50%, rgba(115,138,219,1) 50%, rgba(153,170,181,1) 50%, rgba(115,138,219,1) 75%);
   transition-duration: 0.5s;
 }
 
@@ -60,7 +83,7 @@
 
 .long-btn-github:hover {
   color: #f0f0f0;
-  background-color: #161b22;
+  background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(66,66,66,1) 40%, rgba(65,65,65,1) 100%);
   transition-duration: 0.5s;
 }
 
@@ -82,7 +105,7 @@
 
 .long-btn-steam:hover {
   color: #f0f0f0;
-  background-color: #232633;
+  background: linear-gradient(180deg, rgba(23,26,33,1) 0%, rgba(27,40,56,1) 50%, rgba(42,71,94,1) 100%);
   transition-duration: 0.5s;
 }
 
@@ -104,6 +127,6 @@
 
 .long-btn-spotify:hover {
   color: #f0f0f0;
-  background-color: #1ed760;
+  background: linear-gradient(90deg, rgba(29,185,84,1) 0%, rgba(30,215,96,1) 50%, rgba(30,215,96,1) 50%, rgba(29,185,84,1) 100%);
   transition-duration: 0.5s;
 }
