@@ -101,27 +101,4 @@ body {
   font-weight: bold;
 }
 
-@media (max-width: 1000px) {
-  .long-btn {
-    max-width: 270px;
-    font-size: 12px;
-    height: 28px;
-  }
-  .avatar img {
-    width: 100px;
-    height: 100px;
-  }
-  .username {
-    font-size: 30px;
-  }
-  .circle ul li .fab {
-    font-size: 25px;
-  }
-  .circle ul li a {
-    width: 40px;
-    height: 40px;
-  }
-  .footer {
-    font-size: 12px;
-  }
-}
+
