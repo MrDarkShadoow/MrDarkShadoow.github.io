@@ -1,0 +1,51 @@
+*{
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+
+body{
+ font-family: monospace;
+ background: var(--bg);
+ min-height: 100vh;
+ max-width: 100%;
+ background-size: cover;
+ background-attachment: fixed;
+}
+
+.Btheme{
+  --btnBg: var(--black);
+  --btnFontColor: var(--white);
+  --bg: var(--Dbg);
+  --fontColor: var(--white);
+}
+
+.Wtheme{
+  --btnBg: var(--white);
+  --btnFontColor: var(--black);
+  --bg: var(--Lbg);
+  --fontColor: var(--black);
+}
+
+:root{
+  --Lbg:url("../imgs/WhiteWallpaper.webp");
+  --Dbg:url("../imgs/BlackWallpaper.webp");
+  --white:#f0f0f0;
+  --black:#000;
+}
+
+
+
+.btn{
+  background-color: var(--btnBg);
+  position: absolute;
+  top: 20px;
+  left:20px;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  color: var(--btnFontColor);
+}
+
+.btn: focus{
+  outline-style: none;
+}

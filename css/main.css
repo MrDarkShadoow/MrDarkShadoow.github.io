@@ -7,15 +7,6 @@ html {
   font-family: "Rubik", sans-serif;
 }
 
-body {
-  min-height: 100vh;
-  max-width: 100%;
-  background-image: url("../imgs/wallpaper.png");
-  background-size: cover;
-  background-attachment: fixed;
-  color: #ffffff
-}
-
 .main {
   padding-bottom: 75px;
 }
@@ -36,7 +27,6 @@ body {
 
 
 .username {
-  color: #f0f0f0f;
   text-shadow: 0px 0px 25px #050505;
   font-size: 2em;
   text-align: center;
@@ -72,29 +62,6 @@ body {
   text-align: center;
   justify-content: center;
   align-items: center; 
-  /* */
-}
-
-.circle ul li {
-  display: inline-block;
-  list-style: none;
-  margin: 0px 5px;
-}
-
-.circle ul li .fab {
-  font-size: 35px;
-  line-height: 50px;
-  transition: 0.6s;
-  color: #18191c;
-  list-style: none;
-}
-
-.circle ul li a {
-  text-decoration: none;
-  width: 65px;
-  height: 65px;
-  border-radius: 50%;
-  transition: 0.5s;
 }
 
 .footer {
@@ -107,4 +74,3 @@ body {
   text-decoration: none;
   font-weight: bold;
 }
-
