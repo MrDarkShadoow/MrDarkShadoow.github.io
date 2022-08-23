@@ -3,6 +3,24 @@
   font-family: helvetica;
 }
 
+#snow{
+   
+  background-image: var(--Ibg);
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  animation: snow 3600s linear infinite;
+        
+}
+
+@keyframes snow {
+          0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+          100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
+        }
+
+
 body{
  font-family: monospace;
  background: var(--bg);
@@ -15,22 +33,24 @@ body{
 .Btheme{
   --btnBg: var(--black);
   --btnFontColor: var(--white);
-  --bg: var(--Dbg);
+  --bg: var(--black);
+  --Ibg: var(--Dbg);
   --fontColor: var(--white);
 }
 
 .Wtheme{
   --btnBg: var(--white);
   --btnFontColor: var(--black);
-  --bg: var(--Lbg);
+  --bg: var(--white);
+  --Ibg: var(--Lbg);
   --fontColor: var(--black);
 }
 
 :root{
-  --Lbg:url("../imgs/WhiteWallpaper.webp");
-  --Dbg:url("../imgs/BlackWallpaper.webp");
+  --Lbg: url(https://cdn.discordapp.com/attachments/928691634005229588/1011718729329037422/unknown.png);
+  --Dbg: url(https://cdn.discordapp.com/attachments/928691634005229588/1011682303262601226/unknown.png); 
   --white:#f0f0f0;
-  --black:#000;
+  --black:#0f0f0f;
 }
 
 
