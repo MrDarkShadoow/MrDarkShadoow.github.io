@@ -6,10 +6,10 @@ switcher.addEventListener('click', function() {
 
   var className = document.body.className;
   if (className == "Btheme") {
-       this.textContent = "☀";
+       this.textContent = "🌚";
   }
   else{
-    this.textContent = "🌘";
+    this.textContent = "🌞";
   }
 
   console.log('current class name: ' + className);
