@@ -1,4 +1,5 @@
 html, body {
+  display: inline-grid;
   height: 100%;
   background-color:#0f0f0f;
 }
