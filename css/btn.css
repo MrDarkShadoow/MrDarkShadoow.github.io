@@ -59,6 +59,6 @@
 }
 
 .youtube:hover {
-  background-color: #ff0000;
+  background: #FF0000;
   transition-duration: 0.5s;
 }
