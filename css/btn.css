@@ -6,16 +6,18 @@
 .discord:hover {
   background: #9b8adb;
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px #4d456d;
+
 }
 
 .github{
   text-shadow: 0px 0px 15px #000000;
-  -webkit-box-reflect: below -25px linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.075));
 }
 
 .github:hover {
-  background: #000000;
+  background: #0f0f0f;
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px #000000;
 }
 
 .intagram {
@@ -25,6 +27,7 @@
 .instagram:hover {
   background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 25%, rgba(221,42,123,1) 50%, rgba(254,218,119,1) 75%, rgba(245,133,41,1) 100%);
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px rgba(221,42,123,1)
 }
 
 .itch{
@@ -34,6 +37,7 @@
 .itch:hover {
   background: #ff2449;
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px #7f1224;
 }
 
 .spotify {
@@ -43,6 +47,7 @@
 .spotify:hover {
   background: rgba(29,185,84,1);
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px #116f32;
 }
 
 .steam{
@@ -52,6 +57,7 @@
 .steam:hover{
   background: linear-gradient(180deg, rgba(23,26,33,1) 0%, rgba(27,40,56,1) 50%, rgba(42,71,94,1) 100%);
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px #0b0d10;
 }
 
 .youtube {
@@ -61,4 +67,6 @@
 .youtube:hover {
   background: #FF0000;
   transition-duration: 0.5s;
+  box-shadow: 10px 10px 0px 0px #7f0000
+;
 }
