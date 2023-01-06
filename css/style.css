@@ -69,6 +69,45 @@ main a {
   background-color:#450000;
 }
 
+.bar{
+  position: relative;
+}
+
+.bar::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 3px;
+  background-color: #450000;
+  bottom: -10px;
+}
+
+.bar::after{
+ content: "";
+ position: absolute;
+ bottom: -13px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 45px;
+ height: 9px;
+ background-color: #250000;
+}
+
+.Discord-banner {
+  margin-top:20px;
+  widht-max:500px;
+}
+
+.Spotify-banner {
+  widht-max:500px;
+}
+
+.instagram-media{
+  width-max:500px;
+}
+
 footer {
   background-color:#450000;
   background-size: cover;
