@@ -97,11 +97,14 @@ main a {
 
 .Discord-banner {
   margin-top:20px;
-  widht-max:500px;
 }
 
-.Spotify-banner {
-  widht-max:500px;
+.db{
+  width: 500px;
+}
+
+.sp{
+  width: 500px;
 }
 
 .instagram-media{
