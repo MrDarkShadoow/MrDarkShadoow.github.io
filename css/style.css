@@ -16,7 +16,6 @@ html, body {
 }
 
 header {
-  box-shadow: 10px 10px 0px 0px #250000;
   background-color:#450000;
   background-size: cover;
   background-attachment: fixed;
@@ -67,6 +66,7 @@ main a {
   background-repeat: no-repeat;
   background-position: center;
   background-color:#450000;
+  box-shadow: 10px 10px 0px 0px #250000;
 }
 
 .bar{
