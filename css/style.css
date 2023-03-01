@@ -18,13 +18,14 @@ html, body {
 header {
   align-items: center;
   background-attachment: fixed;
-  background-color:#450000;
+  background-color:rgba( 69, 0, 0, 0.25 );
+  backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: 5px solid #000000;
+  border: 1px solid rgba( 69, 0, 0, 0.20 );
   border-radius: 2rem;
-  box-shadow: 10px 10px 0px 0px #250000;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -36,14 +37,15 @@ header {
   animation-duration: 15s;
   animation-iteration-count: infinite;
   animation-name: Avatar;  
-  background-color:#450000;
+  background-color:rgba( 69, 0, 0, 0.25 );
+  backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
   background-image:url("../imgs/Avatar_2.png");
   background-position:center;
   background-repeat: no-repeat;
   background-size: 110%;
-  border: 5px solid #000000;
+  border: 5px solid rgba( 69, 0, 0, 0.20 );
   border-radius: 50%;
-  box-shadow: 10px 10px 0px 0px #250000;
   height:200px;
   transition-duration: 2s;
   width:200px;
@@ -73,7 +75,9 @@ main {
 }
 
 .bar::before {
-  background-color: #450000;
+  background-color: rgba( 69, 0, 0, 0.25 );
+  backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
   bottom: -10px;
   content: "";
   height: 3px;
@@ -84,7 +88,7 @@ main {
 }
 
 .bar::after{
- background-color: #250000;
+ background-color: rgba( 69, 0, 0, 0.37 );
  bottom: -13px;
  content: "";
  height: 9px;
@@ -112,10 +116,11 @@ main {
 
 footer {
   align-items: center;
-  background-color:#450000;
-  border: 5px solid #000000;
+  background-color:rgba( 69, 0, 0, 0.25 );
+  backdrop-filter: blur( 5px );
+-webkit-backdrop-filter: blur( 5px );
+  border: 5px solid rgba( 69, 0, 0, 0.20 );
   border-radius: 20px;
-  box-shadow: 10px 10px 0px 0px #250000;
   display: flex;
   flex-direction: column;
   justify-content: center;
