@@ -1,0 +1,108 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+	font-family: 'Press Start 2P', sans-serif;
+	color: snow;
+	background-color: #450000;
+	background-image: url(./images/wallpaper.png);
+	background-repeat: repeat;
+	background-position: center center;
+	background-size: 20%;
+}
+
+#box-1 {
+	padding: 10px;
+	background-color: #ffffff00;
+	border: 2px solid #00000000;
+	border-radius: 5px;
+	margin: auto;
+	width: 500px;
+}
+
+#Avatar {
+	margin: auto;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+	flex-direction: column;
+	gap: 10px;
+}
+
+#Avatar img {
+	image-rendering: pixelated;
+	display: block;
+	margin: auto;
+  border-radius: 5%;
+	border: 5px solid ;
+	border-color:#000000bf #000000e6 #000000e6 #000000bf ;
+	box-shadow: 10px 10px 0px 0px #00000080;
+	width: 200px;
+}
+
+#Avatar p {
+	text-shadow: 2px 2px 0px black;
+	text-align: center;
+	font-size: 400;
+}
+
+ul {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 20px;
+}
+
+ul li a {
+	text-shadow: 2px 2px 0px black;
+	color:#FFF;
+	border: 5px solid;
+	border-color:#000000bf #000000e6 #000000e6 #000000bf;
+	border-radius: 5px;
+	display: flex;
+  justify-content: center;
+	align-items: center;
+	padding: 20px;
+	text-decoration: none;
+	font-weight: 500;
+	background: darkred;
+	box-shadow: 10px 10px 0px 0px #00000080;
+	transition: background 1s;
+}
+
+#Discord:hover {
+	background: #9b8adb;
+}
+
+#Github:hover {
+	background: #404040;
+}
+
+#Instagram:hover {
+	background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 25%, rgba(221,42,123,1) 50%, rgba(254,218,119,1) 75%, rgba(245,133,41,1) 100%);
+}
+
+#Spotify:hover {
+	background: #1DB954;
+}
+
+ul li img {
+	display: block;
+	margin: auto;
+	border-radius: 5px;
+	border: 5px solid #000000;
+	border-color:#000000bf #000000e6 #000000e6 #000000bf ;
+	box-shadow: 10px 10px 0px 0px #00000080;
+	width: auto;
+}
+
+	ul li p {
+		text-shadow: 2px 2px 0px black;
+		text-align: center;
+		font-size: 400;
+	}
