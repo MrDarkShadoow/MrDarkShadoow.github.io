@@ -7,10 +7,6 @@ body{
 	font-family: 'Press Start 2P', sans-serif;
 	color: snow;
 	background-color: #450000;
-	background-image: url(./images/wallpaper.png);
-	background-repeat: repeat;
-	background-position: center center;
-	background-size: 20%;
 }
 
 #box-1 {
