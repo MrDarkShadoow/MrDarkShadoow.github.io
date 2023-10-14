@@ -107,20 +107,20 @@ ul li p {
 #background {
 	width: 100vw;
 	height: 100vh;
-	osition: fixed;
+	position: fixed;
 	z-index: -1;
 	background-image: url('images/wallpaper.png'); 
 	background-repeat: repeat;
 	background-position: center center;
 	background-size: 20%;
-		animation: rotateBackground 45s linear infinite;
+	animation: rotateBackground 45s linear infinite;
 }
 @keyframes rotateBackground {
 	0% {
         	background-position: 0 0;
 	}
 	100% {
-		ackground-position: 100% 100%;
+		background-position: 100% 100%;
 	}
 }
 
