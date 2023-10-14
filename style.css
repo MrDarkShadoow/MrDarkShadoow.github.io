@@ -99,10 +99,11 @@ ul li img {
 	border-color:#000000bf #000000e6 #000000e6 #000000bf ;
 	box-shadow: 10px 10px 0px 0px #00000080;
 	width: auto;
+	background-color: black;
 }
 
-	ul li p {
-		text-shadow: 2px 2px 0px black;
-		text-align: center;
-		font-size: 400;
-	}
+ul li p {
+	text-shadow: 2px 2px 0px black;
+	text-align: center;
+	font-size: 400;
+}
