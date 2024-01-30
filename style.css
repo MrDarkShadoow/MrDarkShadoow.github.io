@@ -6,7 +6,8 @@ html {
 body{
 	font-family: 'Press Start 2P', sans-serif;
 	color: snow;
-	background: linear-gradient(135deg, rgba(255,0,0,1) 20%, rgba(32,0,0,1) 80%);
+	background-image: url("./images/Wallpaper.png");
+	background-size: cover;
 }
 
 #box-1 {
