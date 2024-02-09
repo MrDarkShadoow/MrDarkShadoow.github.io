@@ -7,7 +7,7 @@ html {
 body {
 	background-attachment: fixed;
 	background-position: center;
-	background-image: url(".images/Wallpaper.png");
+	background-image: url("images/Wallpaper.png");
 	background-size: cover;
 	font-family:"Roboto", sans-serif;
 }
@@ -86,7 +86,7 @@ body {
 	height: 150px;
 	width: 150px;
 	image-rendering: pixelated; ;
-	background-image: url(".images/Skull.jpg");
+	background-image: url("images/Skull.jpg");
 	background-size: 105%;
 	background-position: center;
 	border-radius: 100%;
