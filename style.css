@@ -1,78 +1,176 @@
 html {
-  height: auto;
-  width: auto;
-}
-
-body{
-	font-family: 'Press Start 2P', sans-serif;
+  height: 100%;
+  width: 100%;
 	color: snow;
-	background-image: url("./images/Wallpaper.png");
+}
+
+body {
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url(".images/Wallpaper.png");
 	background-size: cover;
+	font-family:"Roboto", sans-serif;
 }
 
-#box-1 {
-	padding: 10px;
-	background-color: #ffffff00;
-	border: 2px solid #00000000;
-	border-radius: 5px;
-	margin: auto;
-	width: 500px;
-}
 
-#Avatar {
+
+#Box {
+	height: auto;
+	min-width: 450px;
+	width: auto;
+	max-width: 1170px;
 	margin: auto;
-	padding: 10px;
+	padding-top: 10px;
 	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
 	justify-content: center;
-	align-items: center;
-	list-style: none;
-	flex-direction: column;
-	gap: 10px;
-}
-
-#Avatar img {
-	background-color: #00000010 ;
-	image-rendering: pixelated;
-	display: block;
-	margin: auto;
-  border-radius: 50%;
-	border: 2px solid ;
-	border-color:#00000020 #00000040 #00000040 #00000020 ;
-	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-	width: 200px;
-}
-
-#Avatar p {
-	text-shadow: 2px 2px 0px black;
+	align-content: center;
 	text-align: center;
-	font-size: 400;
+	
 }
 
-ul {
-	list-style: none;
+#Box-1 {
+	max-height: 192px;
+	height: auto;
+	width: auto;
+	max-width: 1170px;
+	background-color: #ff000000;	
+	margin: auto;
+	padding-top: 10px;
 	display: flex;
 	flex-direction: column;
-	gap: 20px;
-	padding: 10px;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
 }
 
-ul li a {
-	text-shadow: 2px 2px 0px black;
-	color: #FFFFFF;
-	border: 1px solid;
-	border-color: #00000020 #00000040 #00000040 #00000020;
-	border-radius: 5px;
+#Box-2{
+	max-height: 576px;
+	height: auto;
+	width: auto;
+	max-width: 1170px;
+	background-color: #0000ff00;	
+	margin: auto;
 	display: flex;
-  justify-content: center;
+	flex-direction: column;
+	flex-wrap: nowrap;
 	align-items: center;
-	padding: 20px;
-	text-decoration: none;
-	font-weight: 500;
-	background: #00000010;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+#Box-3{
+	height: auto;
+	width: auto;
+	max-width: 1170px;
+	background-color: #00ff0000;	
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+.Avatar {
+	min-height: 150px;
+	height: 150px;
+	width: 150px;
+	image-rendering: pixelated; ;
+	background-image: url(".images/Skull.jpg");
+	background-size: 105%;
+	background-position: center;
+	border-radius: 100%;
+	border: 3px solid #00000010;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	transition: background-image 1s;
+
+}
+.Avatar:hover {
+	background-image: url("images/Avatar.png")
+}
+
+p {
+	text-align: center;
+}
+
+ul{
+	padding-left: 0px;
+	list-style: none;
+}
+
+ul li a{
+	height: 70px;
+	width: 350px;
+	background-color: #FF000020;
+	border: 1px solid ;
+	border-radius: 10px;
+	border-color: #00000010 #00000040 #00000040 #00000010;
 	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+	margin: auto;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
 	transition: background 1s;
 }
 
+ul li img {
+	height: auto;
+	max-width: 450px;
+	width: auto;
+	background-color: #FF000020;
+	border: 1px solid;
+	border-color: #00000010 #00000040 #00000040 #00000010;
+	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 19px;
+	margin-bottom: 19px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	transition: background 1s;
+}
+
+ul li p {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
 
 #Discord:hover {
 	background: #9b8adb;
@@ -90,80 +188,47 @@ ul li a {
 	background: #1DB954;
 }
 
-ul li img {
-	display: block;
-	margin: auto;
-	border-radius: 5px;
-	border: 1px solid;
-	border-color: #00000020 #00000040 #00000040 #00000020 ;
-	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-	width: auto;
-	background-color: #00000010;
-}
-
-	ul li p {
-		text-shadow: 2px 2px 0px black;
-		text-align: center;
-		font-size: 400;
-	}
-
-#background {
-		width: 100%;
-	  height: 100%;
-		position: fixed;
-		z-index: -1;
-	  background-image: url(''); 
-	  background-repeat: repeat;
-	  background-position: center center;
-	  background-size: 20%;
-		animation: rotateBackground 45s linear infinite;
-}
-@keyframes rotateBackground {
-			0% {
-					background-position: 0 0;
-			}
-			100% {
-					background-position: 100% 100%;
-		}
-}
-
 *::-webkit-scrollbar {
-	height: 1px;
-	width: 10px;
+		height: 1px;
+		width: 10px;
 }
+
 *::-webkit-scrollbar-track {
-	border-radius: 0px;
-	background-color: #FFFFFF00;
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 0px;
+		background-color: #000000;
 }
 
 *::-webkit-scrollbar-track:hover {
-	background-color: #FFFFFF00;
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 0px;
+		background-color: #000000;
 }
 
-
 *::-webkit-scrollbar-thumb {
-	border-radius: 0px;
-	background-color: #000000;
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 5px;
+		background-color: #8f0000;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-	background-color: #8b0000;
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 5px;
+		background-color: #8F0000;
 }
 
 *::-webkit-scrollbar-thumb:active {
-	background-color: #8b0000;
-}
-
-@media (max-width: 768px) {
-	#background {
-		width: 100%;
-		height: 100%;
-		position: fixed;
-		z-index: -1;
-		background-image: url(''); 
-		background-repeat: repeat;
-		background-position: center center;
-		background-size: 40%;
-		animation: rotateBackground 45s linear infinite;
-	}
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+	  border-radius: 5px;
+		background-color: #8F0000;
 }
