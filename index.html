@@ -6,15 +6,17 @@
   <meta name="viewport" content="width=device-width">
   <title>Shadow</title>
 	<link rel="icon" href="./images/Icon.png">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="Style.css" rel="stylesheet" type="text/css" />
+	<link href="randomStyle" rel="stylesheet" type="text/css" />
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/0d70a821da.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+	<canvas id="c"></canvas>
+	<script src="script.js"></script>
+	<iframe id="Spotify-Iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3R87U7PcFnkDb5qe9HM1Sq?utm_source=generator&theme=0" frameBorder="0" allowfullscreen="" allow="autoplay" loading=""></iframe>
 	<div id="Box">
 	<div id="Box-1">
 		<div class="Avatar"></div>
@@ -23,18 +25,34 @@
 	<div id="Box-2">
 		<ul class="Button">
 			<li>
-				<a id="Discord" href="https://bit.ly/3B6PQ92" >Discord</a>
+				<a href="https://bit.ly/3B6PQ92" id ="Discord" target="_blank" class="btn">
+					<span class="btn__content">Discord</span>
+					<span class="btn__glitch"></span>
+					<span class="btn__label">r25</span>
+				</a>
 			</li>
 			<li>
-				<a id="Github" href="https://bit.ly/3gSJZO4" >Github</a>
+				<a href="https://bit.ly/3gSJZO4" id ="Github" target="_blank" class="btn">
+					<span class="btn__content">Github</span>
+					<span class="btn__glitch"></span>
+					<span class="btn__label">r25</span>
+				</a>
 			</li>
 			<li>
-				<a id="Instagram" href="https://bit.ly/3FlO7OP" >Instagram</a>
+				<a href="https://bit.ly/3FlO7OP" id ="Instagram" target="_blank" class="btn">
+					<span class="btn__content">Instagram</span>
+					<span class="btn__glitch"></span>
+					<span class="btn__label">r25</span>
+				</a>
 			</li>
 			<li>
-				<a id="Spotify" href="https://spoti.fi/3ulPszZ" >Spotify</a>
+				<a href="https://spoti.fi/3ulPszZ" id ="Spotify" target="_blank" class="btn">
+					<span class="btn__content">Spotify</span>
+					<span class="btn__glitch"></span>
+					<span class="btn__label">r25</span>
+				</a>
 			</li>
-		</ul>		
+		</ul>
 	</div>
 	<div id="Box-3">
 		<ul>
@@ -45,6 +63,7 @@
 			<li>
 				<p>Spotify Status</p>
 				<img id="Spotify" src="https://spotify-github-profile.vercel.app/api/view.svg?uid=5sgrqedc5b5g0w9wt09lpgqyd&cover_image=true&theme=natemoo-re&show_offline=true&background_color=000000&interchange=truebar_color_cover=false">
+				<span class="btn__glitch"></span>
 			</li>
 		</ul>
 	</div>
