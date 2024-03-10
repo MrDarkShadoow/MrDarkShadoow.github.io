@@ -1,15 +1,31 @@
 html {
   height: 100%;
   width: 100%;
-	color: snow;
+	color: #f0f0f0;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
 
 body {
 	background-attachment: fixed;
 	background-position: center;
-	background-image: url("images/Wallpaper.png");
 	background-size: cover;
 	font-family:"Roboto", sans-serif;
+	image-rendering: pixelated;
+
+}
+
+canvas {
+	  visibility: hidden;
+		display: block;
+		height: 100%;
+		min-width: 450px;
+		width: 100%;
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		z-index: -1;
 }
 
 
@@ -30,6 +46,199 @@ body {
 	text-align: center;
 	
 }
+
+
+/* Avatar */
+
+.Avatar {
+	min-height: 150px;
+	height: 150px;
+	width: 150px;
+	image-rendering: pixelated; ;
+	background-image: url("images/Skull.webp");
+	background-size: 105%;
+	background-position: center;
+	border: 1px solid;
+	border-color: #00000010 #00000040 #00000040 #00000010;
+	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+	border-radius: 50%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	transition: 1s;
+}
+.Avatar:hover {
+	background-image: url("images/Avatar.webp");
+}
+/* Paragrafo */
+p {
+	text-align: center;
+	font-size: larger;
+}
+
+ul {
+	padding-left: 0px;
+	list-style: none;
+}
+
+/* Buttons - List */
+
+.btn {
+	width: 350px;
+	height: 70px; 
+	border-radius: 10px;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+	position: relative;
+	color: #f0f0f0;
+	transition: 1s;
+}
+
+.btn__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	right: 2px;
+	bottom: 2px;
+	background-color: transparent;
+}
+
+.btn__label {
+	color: transparent;
+}
+
+
+/* Images - List */
+
+ul li img {
+	height: auto;
+	max-width: 450px;
+	width: auto;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	transition: 1s;
+}
+
+
+ul li p {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+/* Id Apps */
+
+#Discord:active {
+	background: #9b8adb;
+}
+
+#Github:active {
+	background: #404040;
+}
+
+#Instagram:active {
+	background: #dd2a7b;
+}
+
+#Spotify:active {
+	background: #1DB954;
+}
+
+
+/* Scroll Bar */
+
+*::-webkit-scrollbar {
+		height: 1px;
+		width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 0px;
+		background-color: #000000;
+}
+
+*::-webkit-scrollbar-track:hover {
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 0px;
+		background-color: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 5px;
+		background-color: #8f0000;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 5px;
+		background-color: #8F0000;
+}
+
+*::-webkit-scrollbar-thumb:active {
+		border: 1px solid;
+		border-color: #00000010 #00000040 #00000040 #00000010;
+		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
+		border-radius: 5px;
+		background-color: #8F0000;
+}
+
+
+/* Iframe - Spotify */
+
+#Spotify-Iframe {
+	position: fixed;
+	top: 80%;
+	height: 100px;
+	width: 80px;
+	transition: 1s;
+}
+
+#Spotify-Iframe:hover {
+	width: 300px;
+}
+
+
+
 
 #Box-1 {
 	max-height: 192px;
@@ -79,156 +288,4 @@ body {
 	justify-content: center;
 	align-content: center;
 	text-align: center;
-}
-
-.Avatar {
-	min-height: 150px;
-	height: 150px;
-	width: 150px;
-	image-rendering: pixelated; ;
-	background-image: url("images/Skull.jpg");
-	background-size: 105%;
-	background-position: center;
-	border-radius: 100%;
-	border: 3px solid #00000010;
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	transition: background-image 1s;
-
-}
-.Avatar:hover {
-	background-image: url("images/Avatar.png")
-}
-
-p {
-	text-align: center;
-}
-
-ul{
-	padding-left: 0px;
-	list-style: none;
-}
-
-ul li a{
-	height: 70px;
-	width: 350px;
-	background-color: #FF000020;
-	border: 1px solid ;
-	border-radius: 10px;
-	border-color: #00000010 #00000040 #00000040 #00000010;
-	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-	margin: auto;
-	margin-top: 19px;
-	margin-bottom: 19px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-	transition: background 1s;
-}
-
-ul li img {
-	height: auto;
-	max-width: 450px;
-	width: auto;
-	background-color: #FF000020;
-	border: 1px solid;
-	border-color: #00000010 #00000040 #00000040 #00000010;
-	box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-	border-radius: 10px;
-	margin: auto;
-	margin-top: 19px;
-	margin-bottom: 19px;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-	transition: background 1s;
-}
-
-ul li p {
-	margin: auto;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	align-items: center;
-	justify-content: center;
-	align-content: center;
-	text-align: center;
-	text-decoration: none;
-	color: white;
-}
-
-#Discord:hover {
-	background: #9b8adb;
-}
-
-#Github:hover {
-	background: #404040;
-}
-
-#Instagram:hover {
-	background: linear-gradient(90deg, rgba(81,91,212,1) 0%, rgba(129,52,175,1) 25%, rgba(221,42,123,1) 50%, rgba(254,218,119,1) 75%, rgba(245,133,41,1) 100%);
-}
-
-#Spotify:hover {
-	background: #1DB954;
-}
-
-*::-webkit-scrollbar {
-		height: 1px;
-		width: 10px;
-}
-
-*::-webkit-scrollbar-track {
-		border: 1px solid;
-		border-color: #00000010 #00000040 #00000040 #00000010;
-		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-		border-radius: 0px;
-		background-color: #000000;
-}
-
-*::-webkit-scrollbar-track:hover {
-		border: 1px solid;
-		border-color: #00000010 #00000040 #00000040 #00000010;
-		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-		border-radius: 0px;
-		background-color: #000000;
-}
-
-*::-webkit-scrollbar-thumb {
-		border: 1px solid;
-		border-color: #00000010 #00000040 #00000040 #00000010;
-		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-		border-radius: 5px;
-		background-color: #8f0000;
-}
-
-*::-webkit-scrollbar-thumb:hover {
-		border: 1px solid;
-		border-color: #00000010 #00000040 #00000040 #00000010;
-		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-		border-radius: 5px;
-		background-color: #8F0000;
-}
-
-*::-webkit-scrollbar-thumb:active {
-		border: 1px solid;
-		border-color: #00000010 #00000040 #00000040 #00000010;
-		box-shadow: 10px 10px 20px #00000080, -10px -10px 20px #FF000020;
-	  border-radius: 5px;
-		background-color: #8F0000;
 }
