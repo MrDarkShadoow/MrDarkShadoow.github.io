@@ -1,0 +1,49 @@
+body {
+	background-color: #0f0f0f;
+}
+
+.Avatar {
+	box-shadow: 0px 0px 15px #ff0000;
+border: 3px solid #ff0000;
+}
+
+p {
+	text-shadow: 0px 0px 15px #f0f0f0;
+}
+
+.btn {
+	background-color: #0f0f0f;
+	border: 3px solid #ff0000;
+	box-shadow: 0px 0px 15px #ff0000, inset 0px 0px 15px #ff0000;
+	text-shadow: 0 0 30px #f0f0f0;
+}
+
+ul li img {
+	background-color: #0f0f0f;
+	border: 3px solid #ff0000;
+	box-shadow: 0px 0px 15px #ff0000, inset 0px 0px 15px #ff0000;
+	text-shadow: 0 0 15px #f0f0f0;
+}
+
+
+
+
+#Discord:hover {
+	border-color: #bdb1e7;
+	box-shadow:  0px 0px 15px #9b8adb, inset 0px 0px 15px #9b8adb;
+}
+
+#Github:hover {
+	border-color: #595959;
+	box-shadow:  0px 0px 15px #404040, inset 0px 0px 15px #404040;
+}
+
+#Instagram:hover {
+	border-color: hsl(333, 72%, 62%);
+	box-shadow:  0px 0px 15px #dd2a7b, inset 0px 0px 15px #dd2a7b;
+}
+
+#Spotify:hover {
+	border-color: #2bde6a;
+	box-shadow:  0px 0px 15px #1DB954, inset 0px 0px 15px #1DB954;
+}
