@@ -55,7 +55,7 @@ canvas {
 	height: 150px;
 	width: 150px;
 	image-rendering: pixelated; ;
-	background-image: url("images/Skull.webp");
+	background-image: url("images/Icon.png");
 	background-size: 105%;
 	background-position: center;
 	border: 1px solid;
@@ -73,7 +73,7 @@ canvas {
 	transition: 1s;
 }
 .Avatar:hover {
-	background-image: url("images/Avatar.webp");
+	background-image: url("images/Icon.png");
 }
 /* Paragrafo */
 p {
